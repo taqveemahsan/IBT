@@ -4,18 +4,18 @@
     @media(max-width:991px){
         background: rgba(0, 0, 0, 1) !important;
         border-bottom: 1px solid $color;
-        padding-top: 10px;padding-bottom:15px;
+        padding-top: 8px;padding-bottom:12px;
     }
-    .logo{max-width: 220px;
-        @media(max-width:1200px){max-width: 180px;}
-        @media(max-width:575px){margin-left: 15px;max-width: 120px;}
+    .logo{max-width: 180px;
+        @media(max-width:1200px){max-width: 150px;}
+        @media(max-width:575px){margin-left: 15px;max-width: 100px;}
     }
 
     @media(min-width:992px){
-        .container{border-radius: 30px;padding: 10px 30px;background: rgba(0, 0, 0, 0.57);}
-        .navbar-nav{margin-left: auto;gap: 15px;margin-right: 15px;
+        .container{border-radius: 25px;padding: 8px 25px;background: rgba(0, 0, 0, 0.57);}
+        .navbar-nav{margin-left: auto;gap: 12px;margin-right: 12px;
             @media(max-width:1200px){
-                gap: 10px;margin-right: 10px;
+                gap: 8px;margin-right: 8px;
             }
         }
     }
@@ -29,7 +29,7 @@
         }
     }
     @media(max-width:991px){
-        .navbar-nav{padding-top: 20px;}
+        .navbar-nav{padding-top: 15px;}
     }
     @media(max-width:575px){
         .reg-btn{font-size: 12px;}

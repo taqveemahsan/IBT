@@ -1,32 +1,32 @@
-h1{font-size:80px;font-weight: 700;color: $white;line-height:80px;
+h1{font-size:60px;font-weight: 700;color: $white;line-height:60px;
   text-transform: uppercase;
   span{color: $color;}
-  @media(max-width:1400px){font-size: 70px;line-height: 70px;}
-  @media(max-width:1200px){font-size: 60px;line-height: 60px;}
-  @media(max-width:991px){font-size: 50px;line-height: 50px;}
-  @media(max-width:767px){font-size: 45px;line-height: 45px;}
-  @media(max-width:575px){font-size: 32px;line-height: 32px;}
+  @media(max-width:1400px){font-size: 55px;line-height: 55px;}
+  @media(max-width:1200px){font-size: 48px;line-height: 48px;}
+  @media(max-width:991px){font-size: 42px;line-height: 42px;}
+  @media(max-width:767px){font-size: 36px;line-height: 36px;}
+  @media(max-width:575px){font-size: 28px;line-height: 28px;}
 }
-h2{ font-size:45px;font-weight: 700;color: $white;
-  text-transform: uppercase;
-  span{color: $color;}
-  @media(max-width:1400px){font-size: 42px;}
-  @media(max-width:1200px){font-size: 38px;}
-  @media(max-width:991px){font-size: 34px;}
-  @media(max-width:767px){font-size: 32px;}
-  @media(max-width:575px){font-size: 30px;}
-
-}
-h3{font-size: 36px;font-weight: 700;color: $white;
+h2{ font-size:36px;font-weight: 700;color: $white;
   text-transform: uppercase;
   span{color: $color;}
   @media(max-width:1400px){font-size: 34px;}
   @media(max-width:1200px){font-size: 30px;}
-  @media(max-width:991px){font-size: 26px;}
-  @media(max-width:767px){font-size: 24px;}
-  @media(max-width:575px){font-size: 22px;}
+  @media(max-width:991px){font-size: 28px;}
+  @media(max-width:767px){font-size: 26px;}
+  @media(max-width:575px){font-size: 24px;}
+
 }
-h4{font-size: 20px;font-weight: 400;color: $greytext;
+h3{font-size: 28px;font-weight: 700;color: $white;
+  text-transform: uppercase;
+  span{color: $color;}
+  @media(max-width:1400px){font-size: 26px;}
+  @media(max-width:1200px){font-size: 24px;}
+  @media(max-width:991px){font-size: 22px;}
+  @media(max-width:767px){font-size: 20px;}
+  @media(max-width:575px){font-size: 18px;}
+}
+h4{font-size: 18px;font-weight: 400;color: $greytext;
   @media(max-width:991px){font-size: 16px;}
 }
 h5{font-size: 16px;font-weight: 700;

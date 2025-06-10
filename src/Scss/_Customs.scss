@@ -63,8 +63,8 @@ body{font-weight: 400;font-family: "Sora", sans-serif;
 
 }
 .min-h-100 {min-height: calc(100% - 20px);}
-.section{padding-top: 50px;padding-bottom:50px;position: relative;
-    @media(max-width:991px){padding-top: 40px;padding-bottom:40px;}
+.section{padding-top: 40px;padding-bottom:40px;position: relative;
+    @media(max-width:991px){padding-top: 35px;padding-bottom:35px;}
     @media(max-width:767px){padding-top: 30px;padding-bottom:30px;}
 }
 .border-text{position: relative;z-index: 1;
@@ -86,7 +86,7 @@ body{font-weight: 400;font-family: "Sora", sans-serif;
 .btn-list{width: 100%;margin:0;display:flex;gap: 10px;list-style: none;
   flex-wrap: wrap;
   @media(max-width:575px){flex-direction: column;gap: 10px;}
-  button{min-width: 180px;}
+  button{min-width: 160px;}
   &.center{display: flex;justify-content: center;align-items: center;}
 }
 // Button List

@@ -1,6 +1,6 @@
 .landing-header{height: 100vh;display: flex;justify-content: center;align-items: center;
-    position: relative;z-index: 1;min-height:650px;
-    @media(max-width:991px){text-align: center;height: auto;min-height: 100vh;padding-top: 150px;padding-bottom: 50px;
+    position: relative;z-index: 1;min-height:600px;
+    @media(max-width:991px){text-align: center;height: auto;min-height: 90vh;padding-top: 120px;padding-bottom: 40px;
         .btn-list{justify-content: center;align-items: center;}
         h1{
             span{display: inline-block;width: 100%;}
@@ -8,13 +8,13 @@
     }
     .bg-layer{
         background-position: right center , right top;z-index: -1;
-        background-repeat: no-repeat;background-size: 40%, cover;
+        background-repeat: no-repeat;background-size: 35%, cover;
         @media(max-width:991px){background-size: 0%, cover;}
     }
-    p{font-size: 22px;font-weight: 700;color: $white;
-        @media(max-width:1200px){font-size: 20px;}
-        @media(max-width:991px){font-size: 18px;}
-        @media(max-width:767px){font-size: 16px;}
+    p{font-size: 18px;font-weight: 700;color: $white;
+        @media(max-width:1200px){font-size: 16px;}
+        @media(max-width:991px){font-size: 16px;}
+        @media(max-width:767px){font-size: 14px;}
     }
     &.inner{
         
