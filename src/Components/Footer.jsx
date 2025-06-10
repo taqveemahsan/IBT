@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Col, Container, Dropdown, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -13,16 +12,6 @@ function Footer() {
               <Link to="/"><Image src={Footerlogo} alt="Logo" /></Link>
               <ul>
                 <li><Link to="Aboutus">About Us</Link></li>
-                <li>
-                  <Dropdown className="simple-dropdown">
-                    <Dropdown.Toggle id="dropdown-basic">
-                      Bootcamps <i className="fa fa-angle-down"/>
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>
-                </li>
                 <li>
                   <Dropdown className="simple-dropdown">
                     <Dropdown.Toggle id="dropdown-basic">

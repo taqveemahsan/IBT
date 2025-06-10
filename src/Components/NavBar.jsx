@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button, Container, Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Logo from '../Assets/Imags/Logo/logo.svg';
@@ -15,13 +14,6 @@ function NavBar() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
               <Nav.Link href="#features">About Us</Nav.Link>
-              <NavDropdown title="Bootcamps" id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              </NavDropdown>
               <NavDropdown title="On-Demand Courses" id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="/AiCourses">Ai Courses</NavDropdown.Item>
                 <NavDropdown.Item href="/PythonCourses">Python Courses</NavDropdown.Item>
