@@ -1,0 +1,89 @@
+
+/* Animation */
+@keyframes Navanime {
+  0%   {transform: translateY(-100px);opacity: 0;}
+  100% {transform: translateY(0px);opacity: 1;}
+}
+@-webkit-keyframes animerotate {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes animerotate {
+  from {-moz-transform: rotate(0deg);}
+  to {-moz-transform: rotate(360deg);}
+}
+@keyframes animerotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}  
+@keyframes opacityanime {
+  0%{opacity: 0;}
+  100% {opacity: 1;}
+}
+.textx{animation: texty 1s linear;-webkit-animation: texty 1.2s linear;}
+.text-x{animation: text-y 1s linear;-webkit-animation: text-y 1.2s linear;}
+.texty{animation: textx 1s linear;-webkit-animation: textx 1.2s linear;}
+.text-y{animation: text-x 1s linear;-webkit-animation: text-x 1.2s linear;}  
+@-webkit-keyframes texty{
+  0% { -webkit-transform: translateY(100px);opacity: 0; }
+  100% { -webkit-transform: translateY(0px);  opacity: 1;}
+}
+@keyframes texty{    
+  0%{transform: translateY(100px);opacity: 0;}
+  100%{transform: translateY(0px);opacity: 1;}
+}
+@-webkit-keyframes text-y{
+  0% { -webkit-transform: translateY(-100px);opacity: 0; }
+  100% { -webkit-transform: translateY(0px);  opacity: 1;}
+}
+@keyframes text-y{    
+  0%{transform: translateY(-100px);opacity: 0;}
+  100%{transform: translateY(0px);opacity: 1;}
+}  
+@-webkit-keyframes textx{
+  0% { -webkit-transform: translateX(100px);opacity: 0; }
+  100% { -webkit-transform: translateX(0px);  opacity: 1;}
+}
+@keyframes textx{    
+  0%{transform: translateX(100px);opacity: 0;}
+  100%{transform: translateX(0px);opacity: 1;}
+}  
+@-webkit-keyframes text-x{
+  0% { -webkit-transform: translateX(-100px);opacity: 0; }
+  100% { -webkit-transform: translateX(0px);  opacity: 1;}
+}
+@keyframes text-x{    
+  0%{transform: translateX(-100px);opacity: 0;}
+  100%{transform: translateX(0px);opacity: 1;}
+}
+  /* Animation */
+
+@media(min-width:768px){
+  .navbar{@include animation-anime(Navanime, 1s, linear);}
+    
+  h2.scroll-anime,
+  h3.scroll-anime,
+  h4.scroll-anime{
+    &.anime{@include animation-anime(texty, 1s, linear);@include trans1;}
+  }
+
+  .scroll-anime{
+    &.courses-post:nth-child(odd),
+    &.certification-post:nth-child(odd),
+    &.left{
+        &.anime{@include animation-anime(text-x, 1s, linear);@include trans1;}
+    }
+    &.courses-post:nth-child(even),
+    &.certification-post:nth-child(even),
+    &.right{
+        &.anime{@include animation-anime(textx, 1s, linear);@include trans1;}
+    }
+    &.top{
+        &.anime{@include animation-anime(text-y, 1s, linear);@include trans1;}
+    }
+    &.bottom{
+        &.anime{@include animation-anime(texty, 1s, linear);@include trans1;}
+    }
+  }
+
+}

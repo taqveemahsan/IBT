@@ -1,0 +1,121 @@
+.navbar{
+    background-color: transparent !important;
+    position: absolute;left: 0;right: 0;top:0;z-index: 999;
+    @media(max-width:991px){
+        background: rgba(0, 0, 0, 1) !important;
+        border-bottom: 1px solid $color;
+        padding-top: 10px;padding-bottom:15px;
+    }
+    .logo{max-width: 220px;
+        @media(max-width:1200px){max-width: 180px;}
+        @media(max-width:575px){margin-left: 15px;max-width: 120px;}
+    }
+
+    @media(min-width:992px){
+        .container{border-radius: 30px;padding: 10px 30px;background: rgba(0, 0, 0, 0.57);}
+        .navbar-nav{margin-left: auto;gap: 15px;margin-right: 15px;
+            @media(max-width:1200px){
+                gap: 10px;margin-right: 10px;
+            }
+        }
+    }
+    .dropdown-toggle{
+        &:after{border: none;content: "\f107";font: normal normal normal 16px/1 FontAwesome;position: relative;top: 4px;}
+    }
+    .dropdown-menu{padding: 0;
+        a{color:$white;font-size:14px;
+          &:focus,
+          &:hover{background-color:$color;color: $dark;}
+        }
+    }
+    @media(max-width:991px){
+        .navbar-nav{padding-top: 20px;}
+    }
+    @media(max-width:575px){
+        .reg-btn{font-size: 12px;}
+        .navbar-nav{padding-left: 15px;padding-right: 15px;}
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: $white;
+    @media(max-width:1200px){
+        font-size: 14px;
+    }
+    @media(max-width:991px){
+        font-size: 16px;
+    }
+}
+
+@media(max-width:991px){
+.navbar-toggler {
+    border: none;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 15px;
+    @media(max-width:575px){margin-right: 10px;margin-left: 10px;}
+  
+    span {
+      display: inline-block;
+      width: 100%;
+      height: 2px;
+      opacity: 0;
+      background-image: none;
+      background-color: $white;
+      @include trans1();
+    }
+  
+    &:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 0;
+      top: 13px;
+      height: 2px;
+      background-color: $white;
+      @include trans1();
+      transform: rotate(-45deg);
+    }
+  
+    &:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 0;
+      bottom: 15px;
+      height: 2px;
+      background-color: $white;
+      @include trans1();
+      transform: rotate(45deg);
+    }
+  
+    &.collapsed {
+      span {
+        opacity: 1;
+      }
+  
+      &:before {
+        transform: rotate(0deg);
+        top: 5px;
+      }
+  
+      &:after {
+        transform: rotate(0deg);
+        bottom: 5px;
+      }
+    }
+  
+    &:hover {
+  
+      &:before,
+      &:after,
+      span {
+        background-color: $black;
+      }
+    }
+  }}

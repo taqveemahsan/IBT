@@ -1,0 +1,21 @@
+.form-floating{
+    input,
+    input.form-control{
+        background-color: $dark;border-color: $dark;
+        border-radius: 10px;color:$white;
+        &::placeholder{color: $greytext;}
+        &:focus{box-shadow: none !important;}
+    }
+    label{color: $white;font-weight: bold;}
+}
+.form-check{
+    label{color: $greytext;font-size: 14px;}
+}
+.submit-btn{background-color:$color;color: $black;font-weight: 600;padding: 16px 20px;min-width: 250px;font-size: 20px;
+    border-radius: 14px;border:none;
+
+    @media(max-width:767px){min-width: 220px;font-size: 16px;padding: 14px 10px;}
+    &:hover{
+        background-color: $darkcolor;
+    }
+}

@@ -1,0 +1,33 @@
+.reg-btn{
+    background-color: $color;color: $dark;border-color: $color;
+    border-radius: 10px;font-weight: 600;
+    padding: 7px 13px;
+
+    &:hover{
+        background-color: $darkcolor;
+        color: $white;border-color: $darkcolor;
+    }
+    &.trans{background-color: transparent;color: $color;border-color: $color;
+
+        &:hover{
+            background-color: $color;
+            color: $white;border-color: $color;
+        }
+
+        &.white{background-color: transparent;color: $white;border-color: $white;
+            &:hover{background-color: $color;color: $white;border-color: $color;}
+        }
+    }
+    &.radius{border-radius: 30px;}
+    &.big{padding: 10px 20px;min-width: 220px;}
+}
+
+
+.simple-link{
+    color: $color;padding: 0;
+    margin: 0;
+
+    &:hover{
+        text-decoration: underline !important;
+    }
+}

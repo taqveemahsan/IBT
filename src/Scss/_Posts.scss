@@ -1,0 +1,199 @@
+.post-box{
+    display: flex;justify-content: center;gap: 15px;
+    flex-wrap: wrap;text-align: initial;
+    @media(max-width:991px){gap: 10px;}
+    .post-two{width: calc(50% - 7.5px);
+        @media(max-width:767px){width: 100%;}
+    }
+    .post-three{width: calc(33.33333% - 10px);
+        @media(max-width:991px){width: calc(50% - 7.5px);}
+        @media(max-width:767px){width: 100%;max-width:350px;}
+    }
+    .post-four{width: calc(25% - 12px);
+        @media(max-width:991px){width: calc(50% - 7.5px);}
+        @media(max-width:575px){width: 100%;max-width:300px;}
+    }
+}
+
+// Career Post
+.career-post{
+    border-radius: 28px;padding: 50px 30px;
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;text-align: center;
+    position: relative;z-index: 2;
+    &:before{
+        position: absolute;content: "";
+        border-radius: 28px;background: $darkgrey;
+        left: 2px;top: 2px;bottom: 2px;right: 2px;
+        z-index: -1;
+    }
+    
+    p{margin: 0;color: $greytext;}
+    &:nth-of-type(1){
+        background: linear-gradient(90deg, rgba(7, 255, 255, 0) 0%, #07FFFF 100%);
+    }
+    &:nth-of-type(2){
+        background:  linear-gradient(90deg, #07FFFF 0%, #07FFFF 100%);
+    }
+    &:nth-of-type(3){
+        background: linear-gradient(90deg, #07FFFF 0%, rgba(7, 255, 255, 0) 100%);
+    }
+    
+}
+// Career Post
+
+// courses post
+.courses-post{display: flex;justify-content: space-between;align-items: center;background: $darkgrey;border: 2px solid #434343;
+    border-radius: 30px;margin-bottom:30px;gap: 10px;padding: 50px 50px;
+    position: relative;z-index: 2;
+    &:before{
+        position: absolute;left: 0;right: 0;bottom: 0;top: 0;@include trans1;
+        border-radius: 30px;content: "";z-index: -1;opacity: 0;
+        background:linear-gradient(180deg, #008C91 0%, #00343A 100%);
+    }
+    &:after{
+        position: absolute;left: 0;right: 0;bottom: 0;top: 0;@include trans1;
+        border-radius: 30px;content: "";z-index: -1;
+        background-image: url(../Assets/Imags/Courses/blur-bg.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: auto 100%;
+    }
+    &:hover:before{opacity: 1;}
+    &:hover:after{opacity: 0;}
+    @media(max-width:1200px){gap: 20px;padding: 40px 30px;}
+    @media(max-width:991px){flex-direction: column;}
+    @media(max-width:767px){padding: 40px 15px;}
+    .icon-span{
+        display: flex;justify-content: center;align-items: center;
+        width: 60px;height: 60px;margin-bottom: 15px;
+        background: rgba(0, 52, 58, 1);border: 2px solid rgba(7, 255, 255, 1);border-radius: 50%;
+        img{max-width: 60%;max-height: 60%;}
+    }
+    .img-pnl{flex-shrink: 0;max-width: 280px;}
+    p{color: $greytext;margin-bottom: 10px;}
+}
+// courses post
+
+// Why Ibt Post
+.why-ibt-post{
+    background: $darkgrey;border-radius: 28px;padding: 30px 20px;
+    position: relative;z-index: 2;
+    &:before{
+        position: absolute;left: 0;right: 0;bottom: 0;top: 0;@include trans1;
+        border-radius: 30px;content: "";z-index: -1;opacity: 0;
+        background:linear-gradient(180deg, #008C91 0%, #00343A 100%);
+    }
+    img{max-width: 70px;max-height: 70px;margin-bottom: 20px;}
+    p{margin: 0;color: $greytext;}
+
+    &:hover:before{opacity: 1;}
+}
+// Why Ibt Post
+
+
+// Marquee
+.marquee-container-main{
+    position: relative;z-index: 2;
+    &:before{
+        position: absolute;content: "";
+        background-color: #151414;
+        left: -15px;right: -15px;top: 0;bottom: 0;
+    }
+}
+.marquee-container {width: 100%;overflow: hidden;position: relative;z-index: 2;padding: 30px 30px 0px;
+    .team-marquee {display: flex;gap: 30px; animation: marquee 20s linear infinite; will-change: transform;margin-bottom: 30px;
+        @media(min-width:992px){
+            &:hover{animation-play-state: paused;}
+        }
+        li {list-style: none;min-width: 250px;}
+    }
+}
+@keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+}
+// Marquee
+
+// Story Posts
+.story-post-container{position: relative;
+    @media(max-width:991px){max-height: 910px;overflow: hidden;}
+    .view-all-pnl{
+        background: linear-gradient(360deg, #100F0F 3.6%, rgba(16, 15, 15, 0) 111.52%);
+        position: absolute;left: 0;right: 0;bottom: 0;z-index: 2;padding-top: 70px;padding-bottom: 70px;text-align: center;
+    }
+    .story-post{
+        background: #1A1B1B;border-radius: 24px;padding: 30px;margin-bottom: 20px;
+        p{color: $white;margin: 0;margin-top: 15px;}
+        .user-pnl{display: flex;gap: 5px;
+            img{width: 40px;height: 40px;border-radius: 50%;}
+            h6,p{margin: 0;}
+            h6{color: $white;}
+            p{color: $greytext;font-size: 14px;}
+
+        }
+    }
+}
+// Story Posts
+
+// Easy Step Post
+.easy-step-post{
+    background: linear-gradient(180deg, #008C91 0%, #00343A 100%);border-radius: 28px;padding: 30px 20px;
+    display: flex;flex-direction: column;justify-content: space-between;text-align: center;
+    margin-bottom: 0px;
+    .nunber-span{
+        background: #100F0F;border: 2.38px solid #07FFFF;width: 70px;height: 70px;border-radius: 18.56px;
+        display: inline-flex;justify-content: center;align-items: center;transform: rotate(-45deg);
+        color: $color;margin:0 auto 30px;
+        h3{margin: 0;transform: rotate(45deg);color: $color;}
+    }
+    h3{
+        span{display: inline-block;width: 100%;}
+    }
+    p{margin: 0;color: $greytext;}
+}
+// Easy Step Post
+
+// certification courses
+.certification-post{display: flex;justify-content: space-between;background: $darkgrey;border: 2px solid #434343;
+    border-radius: 30px;margin-bottom:30px;gap: 20px;padding: 10px;
+    flex-direction: row-reverse;position: relative;z-index: 2;
+    &:before{
+        position: absolute;left: 0;right: 0;bottom: 0;top: 0;@include trans1;
+        border-radius: 30px;content: "";z-index: -1;opacity: 0;
+        background:linear-gradient(180deg, #008C91 0%, #00343A 100%);
+    }
+    &:hover:before{opacity: 1;}
+    @media(max-width:1200px){gap: 20px;}
+    @media(max-width:991px){flex-direction: column;padding:30px 30px;
+        justify-content: center;
+    }
+    @media(max-width:767px){padding:30px 15px;}
+    .img-pnl{flex-shrink: 0;max-width: 320px;border-radius: 30px;
+        @media(max-width:991px){margin: 0 auto;}
+        @media(max-width:767px){border-radius: 15px;}
+        img{border-radius: 30px;
+            @media(max-width:767px){border-radius: 15px;max-width:260px;}
+        }
+    }
+    p{color: $greytext;margin-bottom: 10px;}
+}
+// certification courses
+
+
+// Scale Post
+.scale-post{
+    background: $darkgrey;border: 2px solid #434343;padding: 30px 20px;text-align: center;border-radius: 30px;justify-content: space-between;
+    display: flex;flex-direction: column;align-items: center;position: relative;z-index: 2;
+    @media(max-width:767px){padding: 30px 15px;}
+    &:before{
+        position: absolute;left: 0;right: 0;bottom: 0;top: 0;@include trans1;
+        border-radius: 30px;content: "";z-index: -1;opacity: 0;
+        background:linear-gradient(180deg, #008C91 0%, #00343A 100%);
+    }
+    img{max-width: 60%;}
+    p{color: $greytext;}
+    .btn-list{margin-top: 20px;}
+    &:hover:before{opacity: 1;}
+}
+// Scale Post

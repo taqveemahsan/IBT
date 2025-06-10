@@ -1,0 +1,75 @@
+import React from "react";
+import { Image } from "react-bootstrap";
+import { Viewdetailslink } from "./Buttons";
+import iconai from "../Assets/Imags/Icons/icon-ai.png";
+import ai from "../Assets/Imags/Courses/ai.png";
+import iconpython from "../Assets/Imags/Icons/icon-python.png";
+import python from "../Assets/Imags/Courses/python.png";
+import iconblockchain from "../Assets/Imags/Icons/icon-blockchain.png";
+import blockchain from "../Assets/Imags/Courses/blockchain.png";
+import iconmining from "../Assets/Imags/Icons/icon-mining.png";
+import mining from "../Assets/Imags/Courses/mining.png";
+import arrow from "../Assets/Imags/Icons/icon-arrow.svg";
+import { Link } from "react-router-dom";
+const courseData = [
+    {
+        title: "AI ",
+        subtitle: "courses",
+        desc: "Learn the fundamentals of artificial intelligence, machine learning, and automation through real-world projects.",
+        icon: iconai,
+        image: ai,
+        alt: "Ai Courses",
+        link: "/AiCourses"
+    },
+    {
+        title: "Python ",
+        subtitle: "courses",
+        desc: "Master one of the most powerful programming languages used across data science, software, and AI",
+        icon: iconpython,
+        image: python,
+        alt: "Python Courses",
+        link: "/PythonCourses"
+    },
+    {
+        title: "Blockchain",
+        subtitle: "Pre-Requisite Course",
+        desc: "Perfect for beginners—grasp the concepts that drive decentralized technologies.",
+        icon: iconblockchain,
+        image: blockchain,
+        alt: "Blockchain",
+        link: "/BlockchainCourses"
+    },
+    {
+        title: "Blockchain",
+        subtitle: "Mining Workshop",
+        desc: "Hands-on experience in mining protocols, nodes, and real-time blockchain data analytics.",
+        icon: iconmining,
+        image: mining,
+        alt: "Mining",
+        link: "/MiningWorkshop"
+    }
+];
+function CoursesPost() {
+    return (
+        <>
+            {courseData.map((course, i) => (
+                <div className="courses-post scroll-anime" key={i}>
+                    <div className="txt-pnl">
+                        <div className="icon-span">
+                            <Image src={course.icon} alt={course.alt} />
+                        </div>
+                        <h3><span>{course.title}</span>  {course.subtitle}</h3>
+                        <p>{course.desc}</p>
+                        <Link className="simple-link" to={course.link}>
+                            View Details <Image src={arrow} alt="Arrow" />
+                        </Link>
+                    </div>
+                    <div className="img-pnl">
+                        <Image src={course.image} alt={course.alt} />
+                    </div>
+                </div>
+            ))}
+        </>
+    );
+}
+export default CoursesPost;

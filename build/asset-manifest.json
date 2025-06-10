@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c9a40ed.css",
+    "main.js": "/static/js/main.f26f58ec.js",
+    "static/media/post-1.png": "/static/media/post-1.00f6c0932f3d971a7587.png",
+    "static/media/block-bg.png": "/static/media/block-bg.b9c7e6ec60e02e492daa.png",
+    "static/media/post-2.png": "/static/media/post-2.99e9d6e2a11a043e9035.png",
+    "static/media/post-4.png": "/static/media/post-4.a3febe869bf2dde3a2f3.png",
+    "static/media/python-bg.png": "/static/media/python-bg.b66f0b9a1eb2b54b3cf6.png",
+    "static/media/post-3.png": "/static/media/post-3.bff286c0d5359b1838e9.png",
+    "static/media/mining-bg.png": "/static/media/mining-bg.1be909223039b2853b85.png",
+    "static/media/ai-bg.png": "/static/media/ai-bg.9746ff154b864a85faab.png",
+    "static/media/bg.jpg": "/static/media/bg.1d6d4ac6608087c207cb.jpg",
+    "static/media/blur-bg.png": "/static/media/blur-bg.3dde90e251beaf354bab.png",
+    "static/media/blockchain-bg.png": "/static/media/blockchain-bg.9b9c21957c7750b82dfc.png",
+    "static/media/blur-bg-right.png": "/static/media/blur-bg-right.f35dbac719bbc5c21783.png",
+    "static/media/Hero-hand.png": "/static/media/Hero-hand.93b7fd8b0f7d7c7ff581.png",
+    "static/media/Hero.jpg": "/static/media/Hero.63ce2fb7fbb3cb7acabd.jpg",
+    "static/media/TalentMarket.png": "/static/media/TalentMarket.2a87fb1d194af9858f8d.png",
+    "static/media/blur-bg-left.png": "/static/media/blur-bg-left.be5e28b634e2f47818e9.png",
+    "static/media/blockchain.png": "/static/media/blockchain.edc50ee1c3207af91aaf.png",
+    "static/media/logo.svg": "/static/media/logo.41ef29251584d028e2571b4721ba20a9.svg",
+    "index.html": "/index.html",
+    "static/media/icon-arrow.svg": "/static/media/icon-arrow.63e874ad6ac0ec4e360d4dd6de1efe95.svg",
+    "main.0c9a40ed.css.map": "/static/css/main.0c9a40ed.css.map",
+    "main.f26f58ec.js.map": "/static/js/main.f26f58ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c9a40ed.css",
+    "static/js/main.f26f58ec.js"
+  ]
+}
