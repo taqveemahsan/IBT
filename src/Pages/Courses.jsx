@@ -61,6 +61,28 @@ const coursesData = [
     },
     {
         id: 3,
+        title: "MERN Stack Web Wizard Course",
+        subtitle: "3-Month Full Stack Developer Program",
+        description: "Become a full stack developer with MongoDB, Express.js, React, and Node.js. Build practical web apps like online stores or job portals for Pakistani businesses.",
+        duration: "3 Months (12 Weeks)",
+        level: "Beginner Friendly",
+        format: "Onsite Classes with Computers Provided",
+        icon: iconai,
+        image: blockchain,
+        alt: "MERN Stack Course",
+        link: "/MernStack",
+        highlights: [
+            "JavaScript, HTML & CSS fundamentals",
+            "React hooks and state management",
+            "Node.js APIs with Express.js",
+            "MongoDB database integration"
+        ],
+        tools: ["MongoDB", "Express.js", "React", "Node.js"],
+        certification: "IBT MERN Stack Developer Certificate",
+        placement: "95% placement rate in full stack roles"
+    },
+    {
+        id: 4,
         title: "Blockchain Course",
         subtitle: "3-Month Blockchain Development Program",
         description: "Master blockchain technology from scratch! Build decentralized applications, create tokens, and explore trending concepts like NFTs and DeFi. Perfect for students, job seekers, and professionals looking to enter the blockchain field.",
@@ -82,7 +104,7 @@ const coursesData = [
         placement: "85% placement rate in blockchain roles"
     },
     {
-        id: 4,
+        id: 5,
         title: "Blockchain Mining Workshop",
         subtitle: "2-Week Blockchain Mining Program",
         description: "Master blockchain mining from scratch! Set up hardware, join pools, and explore staking on modern networks.",
