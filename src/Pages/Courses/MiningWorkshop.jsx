@@ -77,6 +77,7 @@ function MiningWorkshop() {
                                 <h4 className='fw-bold'><b className='text-white'>Who Can Join:</b> Students, professionals, or hobbyists. Basic computer skills required; no prior mining or coding experience needed.</h4>
                                 <h4 className='fw-bold'><b className='text-white'>Requirements:</b> Enthusiasm to learn blockchain mining—laptops and software provided by IBT!</h4>
                             </div>
+
                             <div className='spacer-50' />
                         </Col>
 
