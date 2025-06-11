@@ -18,6 +18,7 @@ function NavBar() {
               <NavDropdown title="On-Demand Courses" id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="/AiCourses">Ai Courses</NavDropdown.Item>
                 <NavDropdown.Item href="/PythonCourses">Python Courses</NavDropdown.Item>
+                <NavDropdown.Item href="/MernStack">MERN Stack Bootcamp</NavDropdown.Item>
                 <NavDropdown.Item href="/BlockchainCourses">Blockchain Courses</NavDropdown.Item>
                 <NavDropdown.Item href="/MiningWorkshop">Blockchain Mining Workshop</NavDropdown.Item>
               </NavDropdown>
