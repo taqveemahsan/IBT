@@ -45,7 +45,7 @@ function MiningWorkshop() {
             <Container fluid className='inner-page'>
                 <Container>
                     <Row>
-                        <Col xl={{ span: 8, offset: 2 }} lg={{ span: 8, offset: 2 }} md={{ span: 10, offset: 1 }} sm={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} className='text-center scroll-anime bottom'>
+                        {/* <Col xl={{ span: 8, offset: 2 }} lg={{ span: 8, offset: 2 }} md={{ span: 10, offset: 1 }} sm={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} className='text-center scroll-anime bottom'>
                             <div className='border-box-pnl'>
                                 <h3>Course <span>Overview</span></h3>
                                 <div className='spacer-20' />
@@ -78,7 +78,7 @@ function MiningWorkshop() {
                                 <h4 className='fw-bold'><b className='text-white'>Requirements:</b> Enthusiasm to learn blockchain mining—laptops and software provided by IBT!</h4>
                             </div>
                             <div className='spacer-50' />
-                        </Col>
+                        </Col> */}
 
                         <Col xl="12" lg="12" md="12" className='scroll-anime bottom'>
                             <h3><span className='box-span' /> 2-Week <span>Roadmap: What You'll Learn</span></h3>
