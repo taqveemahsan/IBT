@@ -61,7 +61,7 @@ const coursesData = [
     },
     {
         id: 3,
-        title: "MERN Stack Web Wizard Bootcamp",
+        title: "MERN Stack Course",
         subtitle: "3-Month Full Stack Developer Program",
         description: "Become a full stack developer with MongoDB, Express.js, React, and Node.js. Build practical web apps like online stores or job portals for Pakistani businesses.",
         duration: "3 Months (12 Weeks)",
@@ -69,7 +69,7 @@ const coursesData = [
         format: "Onsite Classes with Computers Provided",
         icon: iconai,
         image: blockchain,
-        alt: "MERN Stack Bootcamp",
+        alt: "MERN Stack Course",
         link: "/MernStack",
         highlights: [
             "JavaScript, HTML & CSS fundamentals",

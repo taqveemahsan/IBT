@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { InnerHeader } from '../../Components/Header';
-import heroimg from "../../Assets/Imags/Bg/mern-bg.svg";
+import heroimg from "../../Assets/Imags/Bg/python-bg.png";
+import heroimg1 from "../../Assets/Imags/Bg/mern-bg.svg";
 
 function MernStack() {
     const [animatedElements, setAnimatedElements] = useState([]);
@@ -36,9 +37,9 @@ function MernStack() {
     return (
         <>
             <InnerHeader
-                heading="MERN Stack Web Wizard"
-                highlight="Bootcamp"
-                description="Welcome to IBT’s 3-Month MERN Stack Web Wizard Bootcamp! Whether you’re a student, a professional, or a coding newbie anywhere in Pakistan, this course will turn you into a full stack web developer using MongoDB, Express.js, React, and Node.js. Build killer apps like online shops or job boards for desi businesses and launch your career into orbit. Join IBT to master MERN and code your way to success!"
+                heading="MERN Stack"
+                highlight="Course"
+                description="Welcome MERN Stack Course! Whether you’re a student, a professional, or a coding newbie anywhere in Pakistan, this course will turn you into a full stack web developer using MongoDB, Express.js, React, and Node.js. Build killer apps like online shops or job boards for desi businesses and launch your career into orbit. Join IBT to master MERN and code your way to success!"
                 bgImages={[heroimg]}
             />
 
@@ -49,13 +50,13 @@ function MernStack() {
                             <div className='border-box-pnl'>
                                 <h3>Course <span>Overview</span></h3>
                                 <div className='spacer-20' />
-                                <p>Welcome to IBT’s 3-Month MERN Stack Web Wizard Bootcamp! Whether you’re a student, a professional, or a coding newbie anywhere in Pakistan, this course will turn you into a full stack web developer using MongoDB, Express.js, React, and Node.js. Build killer apps like online shops or job boards for desi businesses and launch your career into orbit. Join IBT to master MERN and code your way to success!</p>
+                                <p>Welcome to MERN Stack Course! Whether you’re a student, a professional, or a coding newbie anywhere in Pakistan, this course will turn you into a full stack web developer using MongoDB, Express.js, React, and Node.js. Build killer apps like online shops or job boards for desi businesses and launch your career into orbit. Join IBT to master MERN and code your way to success!</p>
                             </div>
                             <div className='spacer-50' />
                         </Col>
 
                         <Col xl="12" lg="12" md="12" className='scroll-anime bottom'>
-                            <h3><span className='box-span' /> Why Join <span>IBT’s MERN Bootcamp?</span></h3>
+                            <h3><span className='box-span' /> Why Join <span>IBT’s MERN Course?</span></h3>
                             <div className='spacer-20' />
                             <ul className='dot-list'>
                                 <li>Zero to Hero: No coding experience? No tension! Become job-ready in just 3 months.</li>
@@ -245,7 +246,7 @@ function MernStack() {
                             <div className='border-box-pnl'>
                                 <h3>Ready to Become a MERN Stack <span>Web Wizard?</span></h3>
                                 <div className='spacer-20' />
-                                <h4 className='fw-bold'>Join IBT’s Bootcamp and code your future in just 3 months! 🚀</h4>
+                                <h4 className='fw-bold'>Join IBT’s MERN Stack Course and code your future in just 3 months! 🚀</h4>
                                 <div className='spacer-20' />
                                 <p><b className='text-white'>How to Join:</b> Visit IBT to sign up or get more info.</p>
                             </div>

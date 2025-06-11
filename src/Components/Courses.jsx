@@ -34,7 +34,7 @@ const courseData = [
     },
     {
         title: "MERN Stack",
-        subtitle: "Bootcamp",
+        subtitle: "Course",
         desc: "Become a full stack developer with MongoDB, Express.js, React, and Node.js. Build web apps like online stores or job boards.",
         icon: iconai,
         image: blockchain,
