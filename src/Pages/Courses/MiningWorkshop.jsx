@@ -174,6 +174,41 @@ function MiningWorkshop() {
                                     <h4><b className='text-white'>Day 9: Mining in Pakistan and Beyond</b></h4>
                                     <ul className='dot-list'>
                                         <li>Challenges in Pakistan: High electricity costs, hardware availability.</li>
+
+                        <Col xl="12" lg="12" md="12" className='scroll-anime bottom'>
+                            <h3><span className='box-span' /> What You'll <span>Gain</span></h3>
+                            <div className='spacer-20' />
+                            <ul className='dot-list'>
+                                <li><b className='text-white'>Skills:</b> Master mining tools like CGMiner, wallet setup, and staking on Solana.</li>
+                                <li><b className='text-white'>Projects:</b> A portfolio of 1-2 mining/staking projects to impress employers or clients.</li>
+                                <li><b className='text-white'>Career Paths:</b> Freelance as a blockchain consultant, join crypto startups, or manage mining operations.</li>
+                                <li><b className='text-white'>Community:</b> Join IBT's student network for support and job leads in Pakistan.</li>
+                            </ul>
+
+                            <div className='spacer-40' />
+                            <h3><span className='box-span' /> Why Choose <span>IBT?</span></h3>
+                            <div className='spacer-20' />
+                            <ul className='dot-list'>
+                                <li><b className='text-white'>Local Focus:</b> Projects tailored for Pakistani crypto enthusiasts (fintech, startups).</li>
+                                <li><b className='text-white'>Expert Instructors:</b> Learn from blockchain pros in Urdu/English for easy understanding.</li>
+                                <li><b className='text-white'>Hands-On Labs:</b> Use IBT's computers to experiment with mining and staking.</li>
+                                <li><b className='text-white'>Affordable Fees:</b> Budget-friendly for Pakistani students (contact IBT for details).</li>
+                                <li><b className='text-white'>Job Support:</b> Guidance on freelancing and blockchain jobs in Pakistan and abroad.</li>
+                            </ul>
+
+                            <div className='spacer-50' />
+                        </Col>
+
+                        <Col xl={{ span: 8, offset: 2 }} lg={{ span: 8, offset: 2 }} md={{ span: 10, offset: 1 }} sm={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} className='text-center scroll-anime bottom'>
+                            <div className='border-box-pnl'>
+                                <h3>Ready to Shape the Future <span>with Blockchain Mining?</span></h3>
+                                <div className='spacer-20' />
+                                <h4 className='fw-bold'>Join IBT's Blockchain Mining Workshop and become a mining expert in just 2 weeks! 🚀</h4>
+                                <div className='spacer-20' />
+                                <p><b className='text-white'>How to Join:</b> Visit IBT Institute to register or learn more.</p>
+                            </div>
+                            <div className='spacer-50' />
+                        </Col>
                                         <li>Opportunities: Staking, cloud mining, and local crypto projects.</li>
                                         <li><b className='text-white'>Mini-project:</b> Design a low-cost staking setup for Solana for a Pakistani startup.</li>
                                     </ul>
