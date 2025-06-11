@@ -14,7 +14,7 @@ export const Header = () => (
                     <Col xl="7" lg="7" md="12" className="textx">
                         <h1>START YOUR <span>CAREER IN TECH</span></h1>
                         <p>
-                            We're not just another learning institute. We're a launchpad. Whether you're starting fresh or upskilling for the future, IBT arms you with the skills, mindset, and hands-on experience needed to thrive in today's fast-moving tech landscape. Our programs are crafted to align with the most in-demand tech fields—so you're always industry-ready
+                            IBT, in collaboration with AmMag Technologies, is your bridge to the tech world. We focus on equipping you with the essential skills, practical experience, and mindset to succeed in today’s rapidly changing industry. Whether you’re just starting or advancing your career, our programs are crafted to keep you aligned with the most relevant and in-demand tech fields, ensuring you’re always prepared for what comes next.
                         </p>
                         <div className="spacer-20" />
                         <Coursetalkbtns />
