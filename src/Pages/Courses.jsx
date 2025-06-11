@@ -62,24 +62,24 @@ const coursesData = [
     {
         id: 3,
         title: "Blockchain Course",
-        subtitle: "Pre-Requisite Course",
-        description: "Perfect for beginners—grasp the concepts that drive decentralized technologies. Understand blockchain architecture, smart contracts, and cryptocurrency fundamentals.",
-        duration: "8 Weeks",
-        level: "Beginner",
-        format: "Weekday / Weekend Options",
+        subtitle: "3-Month Blockchain Development Program",
+        description: "Master blockchain technology from scratch! Build decentralized applications, create tokens, and explore trending concepts like NFTs and DeFi. Perfect for students, job seekers, and professionals looking to enter the blockchain field.",
+        duration: "3 Months (12 Weeks)",
+        level: "Beginner to Advanced",
+        format: "Onsite Classes with Computers Provided",
         icon: iconblockchain,
         image: blockchain,
         alt: "Blockchain Courses",
         link: "/BlockchainCourses",
         highlights: [
-            "Blockchain architecture and consensus",
-            "Cryptocurrency fundamentals",
-            "Smart contract basics",
-            "DeFi and NFT concepts"
+            "Blockchain fundamentals & cryptography",
+            "Smart contract development with Solidity",
+            "DeFi applications & token creation",
+            "NFTs and decentralized applications"
         ],
-        tools: ["Bitcoin", "Ethereum", "MetaMask", "Remix IDE"],
-        certification: "Certificate of Completion: Blockchain Foundations",
-        placement: "85% transition to advanced blockchain roles"
+        tools: ["Solidity", "Web3.js", "Truffle", "MetaMask"],
+        certification: "IBT Blockchain Development Certificate",
+        placement: "85% placement rate in blockchain roles"
     },
     {
         id: 4,

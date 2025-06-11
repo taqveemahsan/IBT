@@ -33,8 +33,8 @@ const courseData = [
     },
     {
         title: "Blockchain",
-        subtitle: "Pre-Requisite Course",
-        desc: "Perfect for beginners—grasp the concepts that drive decentralized technologies.",
+        subtitle: "Course",
+        desc: "Master blockchain technology from scratch! Build decentralized applications, create tokens, and explore trending concepts like NFTs and DeFi.",
         icon: iconblockchain,
         image: blockchain,
         alt: "Blockchain",
