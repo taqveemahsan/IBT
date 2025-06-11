@@ -178,7 +178,7 @@ function Home() {
                 {/* Ends Here */}
 
                 {/* Starts Here */}
-                <Container fluid className='section'>
+                {/* <Container fluid className='section'>
                     <Container>
                         <Row>
 
@@ -194,7 +194,7 @@ function Home() {
                             </Col>
                         </Row>
                     </Container>
-                </Container>
+                </Container> */}
                 {/* Ends Here */}
 
                 {/* Starts Here */}

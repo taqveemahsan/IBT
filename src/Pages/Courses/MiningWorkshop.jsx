@@ -36,8 +36,8 @@ function MiningWorkshop() {
     return (
         <>
             <InnerHeader
-                heading="IBT 2-Week"
-                highlight="Blockchain Mining Workshop"
+                heading="Blockchain"
+                highlight="Mining Workshop"
                 description="Whether you're a student, professional, or enthusiast, this intensive 2-week onsite workshop teaches blockchain mining from scratch. Discover how mining powers networks like Bitcoin and Ethereum, set up your own rig, and explore staking for modern chains like Solana. Join IBT to boost your career in Pakistan's growing blockchain ecosystem!"
                 bgImages={[heroimg]}
             />
@@ -49,13 +49,13 @@ function MiningWorkshop() {
                             <div className='border-box-pnl'>
                                 <h3>Course <span>Overview</span></h3>
                                 <div className='spacer-20' />
-                                <p>Welcome to IBT's 2-Week Blockchain Mining Workshop! This foundational course introduces blockchain mining, covering decentralization, consensus algorithms, and mining hardware/software. You'll gain hands-on experience setting up a mining rig and simulating mining and staking processes.</p>
+                                <p>Welcome to Blockchain Mining Workshop! This foundational course introduces blockchain mining, covering decentralization, consensus algorithms, and mining hardware/software. You'll gain hands-on experience setting up a mining rig and simulating mining and staking processes.</p>
                             </div>
                             <div className='spacer-50' />
                         </Col>
 
                         <Col xl="12" lg="12" md="12" className='scroll-anime bottom'>
-                            <h3><span className='box-span' /> Why Join <span>IBT's Blockchain Mining Workshop?</span></h3>
+                            <h3><span className='box-span' /> Why Join <span>Blockchain Mining Workshop?</span></h3>
                             <div className='spacer-20' />
                             <ul className='dot-list'>
                                 <li><b className='text-white'>Beginner-Friendly:</b> Start with no mining experience and learn practical skills in just 2 weeks!</li>
@@ -189,15 +189,6 @@ function MiningWorkshop() {
                                 </div>
                             </div>
                             <div className='spacer-40' />
-                        </Col>
-
-                        <Col xl={{ span: 8, offset: 2 }} lg={{ span: 8, offset: 2 }} md={{ span: 10, offset: 1 }} sm={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} className='text-center scroll-anime bottom'>
-                            <div className='border-box-pnl'>
-                                <h3>Bootcamp  <span>Schedule</span></h3>
-                                <div className='spacer-20' />
-                                <h4 className='fw-bold'>[Insert Date] | Duration: 2 Weeks (10 days, 2-3 hours per session)</h4>
-                            </div>
-                            <div className='spacer-50' />
                         </Col>
 
                         <Col xl="12" lg="12" md="12" className='scroll-anime bottom'>
