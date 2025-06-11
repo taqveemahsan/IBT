@@ -84,22 +84,22 @@ const coursesData = [
     {
         id: 4,
         title: "Blockchain Mining Workshop",
-        subtitle: "Advanced Infrastructure",
-        description: "Hands-on experience in mining protocols, nodes, and real-time blockchain data analytics. Learn about consensus mechanisms and network security.",
-        duration: "6 Weeks",
-        level: "Intermediate",
-        format: "Intensive Workshop",
+        subtitle: "2-Week Blockchain Mining Program",
+        description: "Master blockchain mining from scratch! Set up hardware, join pools, and explore staking on modern networks.",
+        duration: "2 Weeks (10 Days)",
+        level: "Beginner Friendly",
+        format: "Onsite Workshop with Computers Provided",
         icon: iconmining,
         image: mining,
         alt: "Mining Workshop",
         link: "/MiningWorkshop",
         highlights: [
-            "Mining protocols and algorithms",
-            "Node setup and configuration",
-            "Consensus mechanisms (PoW, PoS)",
-            "Network security and validation"
+            "Set up mining software and wallets",
+            "Join pools and simulate mining",
+            "Explore PoW vs. PoS and staking",
+            "Calculate profitability & security"
         ],
-        tools: ["Bitcoin Core", "Ethereum Node", "Geth", "Grafana"],
+        tools: ["CGMiner", "BFGMiner", "MetaMask", "Phantom"],
         certification: "IBT Blockchain Mining Certificate",
         placement: "80% placement in blockchain infrastructure roles"
     }
