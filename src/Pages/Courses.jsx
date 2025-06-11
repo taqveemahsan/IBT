@@ -84,8 +84,8 @@ const coursesData = [
     {
         id: 4,
         title: "Blockchain Mining Workshop",
-        subtitle: "2-Week Intensive",
-        description: "Beginner-friendly onsite course covering mining hardware setup, mining pools, and staking on modern blockchains.",
+        subtitle: "2-Week Blockchain Mining Program",
+        description: "Master blockchain mining from scratch! Set up hardware, join pools, and explore staking on modern networks.",
         duration: "2 Weeks (10 Days)",
         level: "Beginner Friendly",
         format: "Onsite Workshop with Computers Provided",
