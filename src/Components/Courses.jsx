@@ -9,6 +9,7 @@ import iconblockchain from "../Assets/Imags/Icons/icon-blockchain.png";
 import blockchain from "../Assets/Imags/Courses/blockchain.png";
 import iconmining from "../Assets/Imags/Icons/icon-mining.png";
 import mining from "../Assets/Imags/Courses/mining.png";
+// Reuse existing assets for the MERN course
 import arrow from "../Assets/Imags/Icons/icon-arrow.svg";
 import { Link } from "react-router-dom";
 
@@ -30,6 +31,15 @@ const courseData = [
         image: python,
         alt: "Python Courses",
         link: "/PythonCourses"
+    },
+    {
+        title: "MERN Stack",
+        subtitle: "Bootcamp",
+        desc: "Become a full stack developer with MongoDB, Express.js, React, and Node.js. Build web apps like online stores or job boards.",
+        icon: iconai,
+        image: blockchain,
+        alt: "MERN Stack",
+        link: "/MernStack"
     },
     {
         title: "Blockchain",
