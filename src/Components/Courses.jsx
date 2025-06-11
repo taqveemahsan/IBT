@@ -43,7 +43,7 @@ const courseData = [
     {
         title: "Blockchain",
         subtitle: "Mining Workshop",
-        desc: "Hands-on experience in mining protocols, nodes, and real-time blockchain data analytics.",
+        desc: "Intensive 2-week program covering mining setup, pool participation, and staking basics.",
         icon: iconmining,
         image: mining,
         alt: "Mining",

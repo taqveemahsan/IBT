@@ -47,7 +47,7 @@ function MiningWorkshop() {
             <InnerHeader
                 heading="Blockchain"
                 highlight="Mining Workshop"
-                description="Designed to give you hands-on experience on DevOps tools and best practices about continuous development, continuous testing, and configuration management, including continuous integration and deployment and continuous monitoring of the software throughout its development life cycle."
+                description="Learn blockchain mining from scratch in this intensive 2-week onsite course. Set up mining hardware, join pools, and explore staking for modern networks."
                 bgImages={[heroimg]}
             />
 
@@ -58,7 +58,7 @@ function MiningWorkshop() {
                             <div className='border-box-pnl'>
                                 <h3>Course <span>Description</span></h3>
                                 <div className='spacer-20' />
-                                <p>A practical workshop focused on blockchain mining protocols, node setup, consensus mechanisms, and real-time analytics. Learn about energy-efficient mining, Proof-of-Work, Proof-of-Stake, and the environmental impact of blockchain infrastructure.</p>
+                                <p>This two-week roadmap introduces mining fundamentals, hardware and software setup, and the basics of staking. You'll configure miners, join testnet pools, and understand how mining supports Bitcoin, Ethereum, and newer blockchains like Solana.</p>
                             </div>
                             <div className='spacer-50' />
                         </Col>
@@ -69,44 +69,38 @@ function MiningWorkshop() {
                             </p>
                             <div className='spacer-20' />
                             <ul className='dot-list'>
-                                <li>Blockchain enthusiasts ready to explore backend infrastructure</li>
-                                <li>
-                                    IT professionals and system administrators
-                                </li>
-                                <li>
-                                    Tech learners pursuing careers in mining operations and blockchain architecture
-                                </li>
-                                <li>
-                                    Developers and engineers interested in node management and consensus
-                                </li>
+                                <li>Students, professionals, or hobbyists with basic computer skills</li>
+                                <li>Blockchain enthusiasts seeking practical mining experience</li>
+                                <li>Developers curious about staking and PoS networks</li>
+                                <li>Anyone looking to understand mining in Pakistan's context</li>
                             </ul>
                             <div className='spacer-20' />
                             <p>
-                                Some basic knowledge of blockchain concepts is recommended.
+                                No prior mining or coding background required—just enthusiasm to learn.
                             </p>
                             <div className='spacer-40' />
                             <h3><span className='box-span' />  Learning <span>Outcomes</span></h3>
                             <div className='spacer-20' />
                             <ul className='dot-list'>
-                                <li> Set up and configure blockchain nodes for Bitcoin and Ethereum</li>
-                                <li> Understand Proof-of-Work, Proof-of-Stake, mining difficulty, and reward mechanisms</li>
-                                <li> Analyze real-time blockchain data with Grafana and Prometheus</li>
-                                <li> Explore block validation, forks, and network security in mining</li>
-                                <li> Learn about sustainability and environmental considerations in blockchain mining</li>
-                                <li> Learn to interact with blockchain systems via CLI and JSON-RPC</li>
+                                <li>Understand how PoW and PoS secure networks like Bitcoin and Solana</li>
+                                <li>Install and configure mining software and wallets</li>
+                                <li>Join a testnet mining pool and monitor rewards</li>
+                                <li>Calculate profitability based on local electricity costs</li>
+                                <li>Set up staking on Solana Devnet</li>
+                                <li>Secure wallets and protect mining setups</li>
                             </ul>
 
                             <div className='spacer-40' />
                             <h3><span className='box-span' />  <span>Tools & Technologies</span> Covered </h3>
                             <div className='spacer-20' />
-                            <h4><b className='text-white'>Node Software:</b>   Bitcoin Core, Ethereum Node, Geth</h4>
-                            <h4><b className='text-white'>Monitoring & Analytics: </b>  Grafana, Prometheus</h4>
-                            <h4><b className='text-white'>Dev Tools:  </b>  CLI, JSON-RPC</h4>
-                            <h4><b className='text-white'>Ecosystem:  </b>   Mining Pools, Network Simulators</h4>
+                            <h4><b className='text-white'>Mining Software:</b> CGMiner, BFGMiner</h4>
+                            <h4><b className='text-white'>Wallets:</b> MetaMask, Phantom</h4>
+                            <h4><b className='text-white'>Monitoring:</b> Basic profitability calculators</h4>
+                            <h4><b className='text-white'>Networks:</b> Bitcoin Testnet, Solana Devnet</h4>
                             <div className='spacer-40' />
                             <h3><span className='box-span' />  <span>Real-World</span> Experience</h3>
                             <div className='spacer-20' />
-                            <h4>Simulate a private <b className='text-white'> blockchain</b> network to experience <b className='text-white'> block creation, peer discovery,</b> and <b className='text-white'> transaction</b> validation.</h4>
+                            <h4>Simulate a mining rig and track hash rates, then stake tokens on Solana Devnet to earn rewards.</h4>
                             <div className='spacer-40' />
                             <h3><span className='box-span' />  <span>Certification</span></h3>
                             <div className='spacer-20' />
@@ -117,7 +111,7 @@ function MiningWorkshop() {
                             <div className='border-box-pnl'>
                                 <h3>Bootcamp  <span>Schedule</span></h3>
                                 <div className='spacer-20' />
-                                <h4 className='fw-bold'>[Insert Date] | Duration: 10 Weeks (Weekday /  Weekend Options)</h4>
+                                <h4 className='fw-bold'>[Insert Date] | Duration: 2 Weeks (10 days, 2-3 hours per session)</h4>
                             </div>
                             <div className='spacer-50' />
                         </Col>
