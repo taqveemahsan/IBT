@@ -44,7 +44,6 @@ const courseData = [
         title: "Blockchain",
         subtitle: "Mining Workshop",
         desc: "Master blockchain mining in just 2 weeks! Learn hardware setup, join pools, and explore staking.",
-
         icon: iconmining,
         image: mining,
         alt: "Mining",
