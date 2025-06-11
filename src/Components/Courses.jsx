@@ -11,11 +11,12 @@ import iconmining from "../Assets/Imags/Icons/icon-mining.png";
 import mining from "../Assets/Imags/Courses/mining.png";
 import arrow from "../Assets/Imags/Icons/icon-arrow.svg";
 import { Link } from "react-router-dom";
+
 const courseData = [
     {
-        title: "AI ",
-        subtitle: "courses",
-        desc: "Learn the fundamentals of artificial intelligence, machine learning, and automation through real-world projects.",
+        title: "Artificial Intelligence ",
+        subtitle: "Course",
+        desc: "Master AI from scratch! Build smart systems, analyze data, and create projects like chatbots or image recognizers. Perfect for students, job seekers, and professionals.",
         icon: iconai,
         image: ai,
         alt: "Ai Courses",
@@ -23,8 +24,8 @@ const courseData = [
     },
     {
         title: "Python ",
-        subtitle: "courses",
-        desc: "Master one of the most powerful programming languages used across data science, software, and AI",
+        subtitle: "Course",
+        desc: "Master Python from zero to hero! Build real-world applications, automate tasks, and create projects like billing systems or web apps. No coding experience required.",
         icon: iconpython,
         image: python,
         alt: "Python Courses",
@@ -49,6 +50,7 @@ const courseData = [
         link: "/MiningWorkshop"
     }
 ];
+
 function CoursesPost() {
     return (
         <>
@@ -72,4 +74,5 @@ function CoursesPost() {
         </>
     );
 }
+
 export default CoursesPost;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Container, Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Logo from '../Assets/Imags/Logo/logo.svg';
 function NavBar() {
   return (
@@ -8,7 +9,7 @@ function NavBar() {
         <Container>
           <Navbar.Brand className="logo" href="/"><Image src={Logo} alt="Logo" /></Navbar.Brand>
           <div>
-            <Button className="reg-btn trans show-on-tablet radius">Go To Courses</Button>
+            <Link className="reg-btn trans show-on-tablet radius" to="/Courses">Go To Courses</Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           </div>
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,7 +24,7 @@ function NavBar() {
               <Nav.Link href="#pricing">Internships</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Button className="reg-btn trans radius hide-on-tablet">Go To Courses</Button>
+          <Link className="reg-btn trans radius hide-on-tablet" to="/Courses">Go To Courses</Link>
         </Container>
       </Navbar>
     </>

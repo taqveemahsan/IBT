@@ -5,7 +5,7 @@ export const Coursetalkbtns = () => (
     <>
         <ul className="btn-list">
             <li>
-                <Button className="reg-btn">Go to courses</Button>
+                <Link className="reg-btn" to="/Courses">Go to courses</Link>
             </li>
         </ul>
     </>
@@ -27,7 +27,7 @@ export const Learnmorecontacebtns = () => (
 
 export const Viewcourselink = () => (
     <>
-        <Link className="reg-btn" to="/">View Course</Link>
+        <Link className="reg-btn" to="/Courses">View Course</Link>
     </>
 );
 

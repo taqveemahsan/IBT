@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import heroimg from "../Assets/Imags/Bg/Hero.jpg";
@@ -15,7 +14,7 @@ export const Header = () => (
                     <Col xl="7" lg="7" md="12" className="textx">
                         <h1>START YOUR <span>CAREER IN TECH</span></h1>
                         <p>
-                            We’re not just another learning institute. We’re a launchpad. Whether you're starting fresh or upskilling for the future, IBT arms you with the skills, mindset, and hands-on experience needed to thrive in today’s fast-moving tech landscape. Our programs are crafted to align with the most in-demand tech fields—so you’re always industry-ready
+                            We're not just another learning institute. We're a launchpad. Whether you're starting fresh or upskilling for the future, IBT arms you with the skills, mindset, and hands-on experience needed to thrive in today's fast-moving tech landscape. Our programs are crafted to align with the most in-demand tech fields—so you're always industry-ready
                         </p>
                         <div className="spacer-20" />
                         <Coursetalkbtns />
@@ -53,8 +52,6 @@ export const InnerHeader = ({ heading, highlight, description, bgImages }) => (
                         {heading} <span>{highlight}</span>
                     </h1>
                     <p>{description}</p>
-                    <div className="spacer-20" />
-                    <Coursetalkbtns />
                     <div className="spacer-30" />
                     <ul className="rating-list">
                         <li>

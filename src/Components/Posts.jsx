@@ -72,7 +72,7 @@ export const EasyStepPost = () => (
         <div className="post-box">
             <div className="post-three easy-step-post scroll-anime left">
                 <div className="nunber-span"><h3>01</h3></div>
-                <h3>ENROLL IN <span>APROGRAM</span></h3>
+                <h3>ENROLL IN <span>A PROGRAM</span></h3>
                 <p>
                     Choose your path: AI, Python, or Blockchain.
                 </p>
