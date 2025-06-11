@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { InnerHeader } from '../../Components/Header';
-import heroimg from "../../Assets/Imags/Bg/blockchain-bg.png";
+import heroimg from "../../Assets/Imags/Bg/mern-bg.svg";
 
 function MernStack() {
     const [animatedElements, setAnimatedElements] = useState([]);
