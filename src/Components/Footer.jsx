@@ -11,7 +11,7 @@ function Footer() {
             <Col xl="12">
               <Link to="/"><Image src={Footerlogo} alt="Logo" /></Link>
               <ul>
-                <li><Link to="Aboutus">About Us</Link></li>
+                <li><Link to="/AboutUs">About Us</Link></li>
                 <li>
                   <Dropdown className="simple-dropdown">
                     <Dropdown.Toggle id="dropdown-basic">
@@ -25,7 +25,7 @@ function Footer() {
                     </Dropdown.Menu>
                   </Dropdown>
                 </li>
-                <li><Link to="Aboutus">Internships</Link></li>
+                <li><Link to="/AboutUs">Internships</Link></li>
               </ul>
               <p>© 2024 IBT Learning Solutions LLC</p>
             </Col>

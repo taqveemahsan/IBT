@@ -14,7 +14,7 @@ function NavBar() {
           </div>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link href="#features">About Us</Nav.Link>
+              <Nav.Link href="/AboutUs">About Us</Nav.Link>
               <NavDropdown title="On-Demand Courses" id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="/AiCourses">Ai Courses</NavDropdown.Item>
                 <NavDropdown.Item href="/PythonCourses">Python Courses</NavDropdown.Item>

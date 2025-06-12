@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import NavBar from './Components/NavBar';
 import Home from './Pages/Home';
 import Courses from './Pages/Courses';
+import AboutUs from './Pages/AboutUs';
 import AiCourses from './Pages/Courses/AiCourses';
 import PythonCourses from './Pages/Courses/PythonCourses';
 import BlockchainCourses from './Pages/Courses/BlockchainCourses';
@@ -20,6 +21,7 @@ function Router() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/Courses" element={<Courses />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/AiCourses" element={<AiCourses />} />
         <Route path="/PythonCourses" element={<PythonCourses />} />
         <Route path="/MernStack" element={<MernStack />} />

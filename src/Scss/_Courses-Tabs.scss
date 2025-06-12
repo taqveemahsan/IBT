@@ -1,0 +1,159 @@
+// Courses Tabs Page
+.courses-tabs-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #100F0F;
+    
+    .spacer-80 {
+        width: 100%;
+        height: 80px;
+        display: block;
+        clear: both;
+    }
+    
+    .courses-tabs-wrapper {
+        margin-bottom: 40px;
+        
+        .courses-nav-tabs {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            border: none;
+            
+            @media(max-width: 991px) {
+                gap: 8px;
+            }
+            
+            @media(max-width: 767px) {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .nav-item {
+                .course-tab {
+                    background: $darkgrey;
+                    border: 2px solid #434343;
+                    border-radius: 16px;
+                    padding: 15px 20px;
+                    color: $white;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    @include trans1;
+                    min-width: 180px;
+                    justify-content: center;
+                    
+                    @media(max-width: 1200px) {
+                        min-width: 160px;
+                        padding: 12px 16px;
+                    }
+                    
+                    @media(max-width: 991px) {
+                        min-width: 140px;
+                        padding: 10px 12px;
+                    }
+                    
+                    @media(max-width: 767px) {
+                        min-width: 100%;
+                        justify-content: flex-start;
+                        padding: 15px 20px;
+                    }
+                    
+                    .tab-icon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 40px;
+                        height: 40px;
+                        background: rgba(0, 52, 58, 1);
+                        border: 2px solid rgba(7, 255, 255, 0.3);
+                        border-radius: 50%;
+                        flex-shrink: 0;
+                        @include trans1;
+                        
+                        @media(max-width: 991px) {
+                            width: 35px;
+                            height: 35px;
+                        }
+                        
+                        img {
+                            max-width: 60%;
+                            max-height: 60%;
+                        }
+                    }
+                    
+                    .tab-title {
+                        font-weight: 600;
+                        font-size: 14px;
+                        
+                        @media(max-width: 1200px) {
+                            font-size: 13px;
+                        }
+                        
+                        @media(max-width: 991px) {
+                            font-size: 12px;
+                        }
+                        
+                        @media(max-width: 767px) {
+                            font-size: 16px;
+                        }
+                    }
+                    
+                    &:hover {
+                        background: linear-gradient(180deg, #008C91 0%, #00343A 100%);
+                        border-color: $color;
+                        color: $white;
+                        
+                        .tab-icon {
+                            border-color: $color;
+                            background: rgba(7, 255, 255, 0.2);
+                        }
+                    }
+                    
+                    &.active {
+                        background: linear-gradient(180deg, #008C91 0%, #00343A 100%);
+                        border-color: $color;
+                        color: $white;
+                        
+                        .tab-icon {
+                            border-color: $color;
+                            background: rgba(7, 255, 255, 0.2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .courses-tab-content {
+        .tab-pane {
+            .course-content-wrapper {
+                .course-overview {
+                    text-align: center;
+                    margin-bottom: 40px;
+                    padding: 30px;
+                    background: rgba(26, 27, 27, 0.5);
+                    border-radius: 20px;
+                    border: 1px solid rgba(7, 255, 255, 0.1);
+                    
+                    h3 {
+                        margin-bottom: 20px;
+                    }
+                    
+                    .course-description {
+                        color: $greytext;
+                        font-size: 16px;
+                        line-height: 1.6;
+                        margin: 0;
+                    }
+                }
+                
+                .course-cta {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
