@@ -160,7 +160,7 @@ function AboutUs() {
                                         <p>
                                             IBT is bridging the global tech skills gap by turning ambition into ability—anywhere in the world. We empower learners from underserved regions, career switchers, and remote-first professionals to master in-demand technologies and enter the global talent pool. IBT is fueling a new wave of agile, cross-border tech talent ready to lead the future.
                                         </p>
-                                        <Learnmorecontacebtns />
+                                        {/* <Learnmorecontacebtns /> */}
                                     </div>
                                     <div className='post-two scale-post scroll-anime right'>
                                         <Image src={IBTBusiness} alt="IBT for Business" />
@@ -168,7 +168,7 @@ function AboutUs() {
                                         <p>
                                             IBT delivers job-ready tech talent that drives real business outcomes. Our graduates bring hands-on experience, reduce onboarding time, and contribute from Day 1. From startups to scale-ups, companies gain access to skilled professionals in AI, blockchain, and Python—trained through real-world challenges, not just theory.
                                         </p>
-                                        <Learnmorecontacebtns />
+                                        {/* <Learnmorecontacebtns /> */}
                                     </div>
                                 </div>
                             </div>

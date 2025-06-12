@@ -89,7 +89,7 @@ function Courses() {
 
     return (
         <>
-            <Container fluid className='courses-tabs-page'>
+            <Container fluid className='courses-tabs-page inner-page'>
                 <Container>
                     <Row>
                         <Col xl="12" lg="12" md="12" className='text-center scroll-anime top'>
