@@ -27,7 +27,7 @@ function Footer() {
                 </li>
                 <li><Link to="/AboutUs">Internships</Link></li>
               </ul>
-              <p>© 2024 IBT Learning Solutions LLC</p>
+              <p>© 2025 IBT Learning Solutions LLC</p>
             </Col>
           </Row>
         </Container>
