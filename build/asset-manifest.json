@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c9a40ed.css",
-    "main.js": "/static/js/main.f26f58ec.js",
+    "main.css": "/static/css/main.10da0587.css",
+    "main.js": "/static/js/main.88d5d54e.js",
+    "static/media/mern_stack.png": "/static/media/mern_stack.8f23e26bf9ac9a50eb37.png",
+    "static/media/mernstack-bg.png": "/static/media/mernstack-bg.c0cb375139dd94e9bcee.png",
     "static/media/post-1.png": "/static/media/post-1.00f6c0932f3d971a7587.png",
     "static/media/block-bg.png": "/static/media/block-bg.b9c7e6ec60e02e492daa.png",
     "static/media/post-2.png": "/static/media/post-2.99e9d6e2a11a043e9035.png",
@@ -12,7 +14,6 @@
     "static/media/ai-bg.png": "/static/media/ai-bg.9746ff154b864a85faab.png",
     "static/media/bg.jpg": "/static/media/bg.1d6d4ac6608087c207cb.jpg",
     "static/media/blur-bg.png": "/static/media/blur-bg.3dde90e251beaf354bab.png",
-    "static/media/blockchain-bg.png": "/static/media/blockchain-bg.9b9c21957c7750b82dfc.png",
     "static/media/blur-bg-right.png": "/static/media/blur-bg-right.f35dbac719bbc5c21783.png",
     "static/media/Hero-hand.png": "/static/media/Hero-hand.93b7fd8b0f7d7c7ff581.png",
     "static/media/Hero.jpg": "/static/media/Hero.63ce2fb7fbb3cb7acabd.jpg",
@@ -22,11 +23,11 @@
     "static/media/logo.svg": "/static/media/logo.41ef29251584d028e2571b4721ba20a9.svg",
     "index.html": "/index.html",
     "static/media/icon-arrow.svg": "/static/media/icon-arrow.63e874ad6ac0ec4e360d4dd6de1efe95.svg",
-    "main.0c9a40ed.css.map": "/static/css/main.0c9a40ed.css.map",
-    "main.f26f58ec.js.map": "/static/js/main.f26f58ec.js.map"
+    "main.10da0587.css.map": "/static/css/main.10da0587.css.map",
+    "main.88d5d54e.js.map": "/static/js/main.88d5d54e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c9a40ed.css",
-    "static/js/main.f26f58ec.js"
+    "static/css/main.10da0587.css",
+    "static/js/main.88d5d54e.js"
   ]
 }

@@ -18,9 +18,9 @@ function Footer() {
                       On-Demand Courses <i className="fa fa-angle-down"/>
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="/AiCourses">Ai Courses</Dropdown.Item>
-                      <Dropdown.Item href="/PythonCourses">Python Courses</Dropdown.Item>
-                      <Dropdown.Item href="/BlockchainCourses">Blockchain Courses</Dropdown.Item>
+                      <Dropdown.Item href="/AiCourses">Artificial Intelligence Course</Dropdown.Item>
+                      <Dropdown.Item href="/PythonCourses">Python Course</Dropdown.Item>
+                      <Dropdown.Item href="/BlockchainCourses">Blockchain Course</Dropdown.Item>
                       <Dropdown.Item href="/MiningWorkshop">Blockchain Mining Workshop</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
